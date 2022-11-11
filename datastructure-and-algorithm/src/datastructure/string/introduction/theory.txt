@@ -1,9 +1,31 @@
 String in Java is represented by array of characters. 
 So, the question is when we already have character array in java then what is the need to
-have s apecial datastructure String. The reason is that string has limited set of 
-elements which makes its special.
+have a special datastructure String. The reason is that string has limited set of 
+elements which makes its special and makes string manipulation easier.
+
+
+How Java stores character ?
 
 There are 128 ASCII values which are used to represent the characters.
-
 Java uses uft-16 to store characters and each character takes 16 bits.
 First 128 characters of ASCII are same as that of UTF-16.
+
+Different ways to create String in Java :
+
+1. Character Array :
+char [] string1 = {'j', 'a', 'v', 'a'};
+
+2. Using String : Immutable 
+
+String string2 = "java";
+
+String string3 = new String("java");
+
+3. Using StringBuffer : mutable and synchronized.
+
+StringBuffer string = new StringBuffer("java");
+
+4. Using StringBuilder : mutable and not-synchronized.
+
+StringBuilder string = new StringBuilder("java"); 
+

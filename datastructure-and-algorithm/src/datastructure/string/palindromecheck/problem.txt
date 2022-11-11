@@ -1,0 +1,32 @@
+Give a string check if it is a plindrome or not.
+
+Ex : 
+I/P : ABCDCBA
+O/P : TRUE
+
+I/P : ABCD
+O/P : FALSE
+
+Solution Approach :
+
+1. Naive Apprroach : 
+
+Step 1 : Take the string
+Step 2: Reverse the string and store it in a different variable
+Step 3: compare the original string with the new one. 
+
+Analysis of the solution :
+
+to type theta: alt + 233(num keys)
+This solution takes Θ(n) time to reverse the string and Θ(n) space to store the reversed string.
+
+
+2.Efficient solution
+
+step 1: take two pointer to donate start and end of the string. 
+step 2: Increment the start pointer and decrement the end pointer until eithe the characters at the pointers do not match or till the 
+end pointers ie less that start pointer. 
+
+Analysis of the solution :
+This solution will take Θ(n) time to traverse the string and it will need Θ(1) auxiliary space.
+

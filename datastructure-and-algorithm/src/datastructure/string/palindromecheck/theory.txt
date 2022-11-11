@@ -1,0 +1,2 @@
+A String is called  palindrome if we read the string from left to right and from right to left are same.
+
