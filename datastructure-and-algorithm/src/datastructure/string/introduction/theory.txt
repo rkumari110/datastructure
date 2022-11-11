@@ -1,0 +1,9 @@
+String in Java is represented by array of characters. 
+So, the question is when we already have character array in java then what is the need to
+have s apecial datastructure String. The reason is that string has limited set of 
+elements which makes its special.
+
+There are 128 ASCII values which are used to represent the characters.
+
+Java uses uft-16 to store characters and each character takes 16 bits.
+First 128 characters of ASCII are same as that of UTF-16.
