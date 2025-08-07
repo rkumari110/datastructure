@@ -19,7 +19,7 @@ public class FrequencyOfCharactersInAString {
 
 		for (int i = 0; i < MAX_CHAR; i++) {
 			if (count[i] > 0) {
-				System.out.println((char) (i + 'a') + " " + count[i]);
+				System.out.println((char) (i + 'a') + "  " + count[i]);
 
 			}
 		}
